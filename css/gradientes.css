@@ -1,0 +1,51 @@
+  .gradientV{
+/* thanks to http://blog.fakedarren.com/2010/01/cross-browser-css-gradients/ */
+/* and http://www.puremango.co.uk/2010/04/css-gradient/ */
+    /* fallback (Opera) */
+    background: #00DDEE;
+    /* Mozilla: */
+    /* background: -moz-linear-gradient(top, #00DDFF, #00BBB0); */    
+    background: -moz-linear-gradient(top, #B4F1F3 0%, #39C4ED 50%, #598393 100%);
+    /* Chrome, Safari:*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#B4F1F3), to(#598393), color-stop(.5,#39C4ED));
+    /* MSIE */
+    filter: progid:DXImageTransform.Microsoft.Gradient(
+                StartColorStr='#00DDFF', EndColorStr='#00BBB0', GradientType=0);                
+
+   -webkit-border-radius: 10px;
+   border: 1px solid #000000;
+   -moz-border-radius: 10px;   
+
+
+   /* Sombra */   
+   -moz-box-shadow: 3px 3px 4px #000; 
+   -webkit-box-shadow: 3px 3px 4px #000; 
+   box-shadow: 3px 3px 4px #000; 
+
+
+   /* For IE 8 */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";  
+   /* For IE 5.5 - 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');    
+
+  }    
+
+.gradientH{
+/* thanks to http://blog.fakedarren.com/2010/01/cross-browser-css-gradients/ */
+ 
+    /* fallback (Opera) */
+    background: #008800;
+    /* Mozilla: */
+    background: -moz-linear-gradient(left, #00FF00, #000000);
+    /* Chrome, Safari:*/
+    background: -webkit-gradient(linear,
+                left top, right top, from(#00FF00), to(#000000));
+    /* MSIE */
+    filter: progid:DXImageTransform.Microsoft.Gradient(
+                StartColorStr='#00FF00', EndColorStr='#000000', GradientType=1);
+  }  
+
+.encabezado_con {
+   background: #00AACC;   
+   color: #0000FF;
+}

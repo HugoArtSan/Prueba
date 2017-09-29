@@ -1,0 +1,53 @@
+  div.seccion {
+     background: #b63;
+	 font-size: 2em;
+  }
+  div.inline {
+     float:left;
+  }
+	  div.mesas 
+	  {
+	     width: 70px;
+		 height: 70px;
+
+	  }
+	  label.mesa_numero 
+	  {
+	     position: absolute;
+		 top: 40px;
+		 left: 22px;
+	  }
+	  
+	     div.div_encabezado
+		 {
+
+		 }
+         div.div_formulario
+		 {
+		   margin-top: 10px;
+		   margin-left: 10px;
+		   margin-right: 10px;
+		 }
+	     div.ventana_sombra
+	     {
+
+		   position: absolute;
+		   top: 50%;
+		   left: 50%;
+		   margin-top: -100px;
+		   margin-left: -125px;
+	       width:250px;
+	       height:200px;
+	       background-color:#2af;
+		   border-radius: 10px;
+	       box-shadow: 10px 10px 5px #888888;
+	     }
+		 
+		 .lineas {
+		            cursor: hand;
+		            color: #6A0000;
+		            background-color: #FFFFFF; 
+		 				   border-color: #CCCCCC;
+		 				   border-width: 1px;
+		 				   border-style: solid;           
+		 }
